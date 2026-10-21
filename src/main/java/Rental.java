@@ -17,8 +17,11 @@ public class Rental {
         return howManyDays * pricePerDay;
     }
 
+
     // DISPLAY RENTAL INFORMATION
     void displayInfo() {
+        System.out.println();
+        System.out.println("===== RENTAL INFORMATION =====");
         System.out.println("Rental ID: " + rentalID);
         System.out.println("Customer: " + customerName);
         System.out.println("Days: " + howManyDays);
@@ -26,10 +29,14 @@ public class Rental {
         System.out.println("Start: " + rentalStartDate);
         System.out.println("End: " + rentalEndDate);
         System.out.println("Car VIN: " + vin);
-        System.out.println("Total: $" + calculateTotalPrice());
-        System.out.println("-----------------------");
+        System.out.printf("Total: $%.2f%n", calculateTotalPrice());
+        System.out.println("==============================");
+        System.out.println();
     }
+
 }
+}
+
 // Car.dealershipInfo():
 //static void dealershipInfo();
 //static void dealershipInfo() {

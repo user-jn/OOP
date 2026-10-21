@@ -9,26 +9,35 @@ public class Car {
     String color;
 
 
-    // METHOD TO DISPLAY CAR INFORMATION
-    void displayInfo() {
 
+    // DISPLAY CAR INFORMATION
+    void displayInfo() {
+        System.out.println();
+        System.out.println("===== CAR INFORMATION =====");
         System.out.println("Color: " + color);
         System.out.println("Brand: " + brand);
         System.out.println("Model: " + model);
         System.out.println("Build Year: " + buildYear);
         System.out.println("VIN: " + vin);
-        System.out.println("--------------------");
+        System.out.println("===========================");
+        System.out.println();
+    }
 
+}
+
+    // WELCOME MESSAGE - STATIC METHOD
+    static void dealershipInfo() {
+        System.out.println("Welcome to the future of RentalCars");
 
     }
 }
 
 
-    // WELCOME MESSAGE
-     static void dealershipInfo() {
-         System.out.println("Welcome to the future of RentalCars");
 
 
- }
+
+
+
+
 
 

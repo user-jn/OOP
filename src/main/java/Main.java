@@ -7,8 +7,8 @@ public class Main {
     public static void main(String[] arg) {
 
         System.out.println("Learning about OOP");
+
         Car.dealershipInfo();
-        System.out.println("Learning about classes");
 
 
 
