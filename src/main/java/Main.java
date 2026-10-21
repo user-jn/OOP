@@ -65,17 +65,6 @@ public class Main {
 
 
 
-        // Display information for all cars
-        car1.displayInfo(); // BMW
-        car2.displayInfo(); // Tesla
-        car3.displayInfo(); // Toyota
-        car4.displayInfo(); // Mercedes
-        car5.displayInfo(); // Ferrari
-
-// Display my personal cars
-        currentCar.displayInfo(); // My Hyundai
-        futureCar.displayInfo();// My dream Mitsubishi Evo
-
         Rental rental1 = new Rental();
         rental1.rentalID = 1001;
         rental1.customerName = "Thuan Luu";
@@ -129,6 +118,32 @@ public class Main {
         rental6.rentalStartDate = LocalDate.of(2026, 11, 25);
         rental6.rentalEndDate = LocalDate.of(2026, 11, 27);
         rental6.vin = "COR006";
+
+
+
+
+        // Display information for all cars
+        car1.displayInfo(); // BMW
+        car2.displayInfo(); // Tesla
+        car3.displayInfo(); // Toyota
+        car4.displayInfo(); // Mercedes
+        car5.displayInfo(); // Ferrari
+
+// Display my personal cars
+        currentCar.displayInfo(); // My Hyundai
+        futureCar.displayInfo();// My dream Mitsubishi Evo
+
+
+        System.out.println("===== ALL 6 RENTALS =====");
+
+        rental1.displayInfo();
+        rental2.displayInfo();
+        rental3.displayInfo();
+        rental4.displayInfo();
+        rental5.displayInfo();
+        rental6.displayInfo();
+
+        System.out.println("Total: $" + calculateTotalPrice());
     }
 }
 
