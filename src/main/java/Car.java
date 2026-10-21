@@ -1,14 +1,12 @@
 
-
 public class Car {
-    //CARINFORMATION
+
+    // CAR INFORMATION
     String brand;
     String model;
     int buildYear;
     String vin;
     String color;
-
-
 
     // DISPLAY CAR INFORMATION
     void displayInfo() {
@@ -23,14 +21,13 @@ public class Car {
         System.out.println();
     }
 
-}
-
-    // WELCOME MESSAGE - STATIC METHOD
+    // STATIC WELCOME MESSAGE
     static void dealershipInfo() {
         System.out.println("Welcome to the future of RentalCars");
-
+        System.out.println();
     }
 }
+
 
 
 

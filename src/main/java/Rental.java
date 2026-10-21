@@ -18,6 +18,7 @@ public class Rental {
     }
 
 
+
     // DISPLAY RENTAL INFORMATION
     void displayInfo() {
         System.out.println();
@@ -25,7 +26,7 @@ public class Rental {
         System.out.println("Rental ID: " + rentalID);
         System.out.println("Customer: " + customerName);
         System.out.println("Days: " + howManyDays);
-        System.out.println("Price per day: $" + pricePerDay);
+        System.out.printf("Price per day: $%.2f%n", pricePerDay);
         System.out.println("Start: " + rentalStartDate);
         System.out.println("End: " + rentalEndDate);
         System.out.println("Car VIN: " + vin);
@@ -34,8 +35,9 @@ public class Rental {
         System.out.println();
     }
 
+
 }
-}
+
 
 // Car.dealershipInfo():
 //static void dealershipInfo();
