@@ -5,8 +5,13 @@ public class Main {
 
 
     public static void main(String[] arg) {
+
         System.out.println("Learning about OOP");
+        Car.dealershipInfo();
         System.out.println("Learning about classes");
+
+
+
 
 
         // Creating or instance of an object
@@ -64,7 +69,6 @@ public class Main {
         futureCar.color = "Black";
 
 
-
         Rental rental1 = new Rental();
         rental1.rentalID = 1001;
         rental1.customerName = "Thuan Luu";
@@ -120,8 +124,6 @@ public class Main {
         rental6.vin = "COR006";
 
 
-
-
         // Display information for all cars
         car1.displayInfo(); // BMW
         car2.displayInfo(); // Tesla
@@ -136,6 +138,7 @@ public class Main {
 
         System.out.println("===== ALL 6 RENTALS =====");
 
+
         rental1.displayInfo();
         rental2.displayInfo();
         rental3.displayInfo();
@@ -143,7 +146,7 @@ public class Main {
         rental5.displayInfo();
         rental6.displayInfo();
 
-        System.out.println("Total: $" + calculateTotalPrice());
+
+        }
     }
-}
 
